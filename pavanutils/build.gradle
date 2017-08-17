@@ -33,7 +33,7 @@ buildscript {
 }
 
 ext {
-   bintrayRepo = 'MyUtility' // your repo name
+   bintrayRepo = 'pavanutility' // your repo name
    bintrayName = 'pavanutils' // has to be same as your library module name
    publishedGroupId = 'com.pavan.utils' // your module package name
    libraryName = 'pavanutils'
