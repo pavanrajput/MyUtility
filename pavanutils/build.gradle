@@ -34,10 +34,10 @@ buildscript {
 
 ext {
    bintrayRepo = 'pavanutility' // your repo name
-   bintrayName = 'pavanutils' // has to be same as your library module name
+   bintrayName = 'MyUtility' // has to be same as your library module name
    publishedGroupId = 'com.pavan.utils' // your module package name
-   libraryName = 'pavanutils'
-   artifact = 'pavanutils' // has to be same as your library module name
+   libraryName = 'MyUtility'
+   artifact = 'MyUtility' // has to be same as your library module name
    libraryDescription = 'A set of methods used to manipulate some things'
    siteUrl = 'https://github.com/pavanrajput/MyUtility'
    gitUrl = 'https://github.com/pavanrajput/MyUtility.git'
