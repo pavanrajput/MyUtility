@@ -22,40 +22,6 @@ android {
 }
 
 
-
-buildscript {
-   repositories {
-       mavenCentral()
-   }
-   dependencies {
-       classpath 'com.android.tools.build:gradle:1.1.0'
-   }
-}
-
-ext {
-   bintrayRepo = 'pavanutility' // your repo name
-   bintrayName = 'MyUtility' // has to be same as your library module name
-   publishedGroupId = 'com.pavan.utils' // your module package name
-   libraryName = 'MyUtility'
-   artifact = 'MyUtility' // has to be same as your library module name
-   libraryDescription = 'A set of methods used to manipulate some things'
-   siteUrl = 'https://github.com/pavanrajput/MyUtility'
-   gitUrl = 'https://github.com/pavanrajput/MyUtility.git'
-   libraryVersion = '1.0.0'
-   developerId = 'p123avan'
-   developerName = 'Pavan Kumar'
-   developerEmail = 'pavan.rajput1987.m@gmail.com'
-   licenseName = 'The Apache Software License, Version 2.0'
-   licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-   allLicenses = ["Apache-2.0"]
-}
-
-
-
-
-
-
-
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -63,6 +29,25 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:26.+'
     testCompile 'junit:junit:4.12'
+}
+
+
+ext {
+    bintrayRepo = 'pavanutility' // your repo name
+    bintrayName = 'MyUtility' // has to be same as your library module name
+    publishedGroupId = 'com.pavan.utils' // your module package name
+    libraryName = 'MyUtility'
+    artifact = 'MyUtility' // has to be same as your library module name
+    libraryDescription = 'A set of methods used to manipulate some things'
+    siteUrl = 'https://github.com/pavanrajput/MyUtility'
+    gitUrl = 'https://github.com/pavanrajput/MyUtility.git'
+    libraryVersion = '1.0.0'
+    developerId = 'p123avan'
+    developerName = 'Pavan Kumar'
+    developerEmail = 'pavan.rajput1987.m@gmail.com'
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
 
 // add it to the bottom of the file
