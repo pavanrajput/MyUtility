@@ -23,14 +23,16 @@ android {
 
 
 
+/*
 buildscript {
    repositories {
        mavenCentral()
    }
    dependencies {
-       classpath 'com.android.tools.build:gradle:1.1.0'
+       classpath 'com.android.tools.build:gradle:2.3.3'
    }
 }
+*/
 
 
 dependencies {
@@ -43,8 +45,10 @@ dependencies {
 }
 
 
+
+/*bintrayRepo = 'pavanutility' // your repo name*/
 ext {
-    bintrayRepo = 'pavanutility' // your repo name
+    bintrayRepo = 'maven' // your repo name
     bintrayName = 'MyUtility' // has to be same as your library module name
     publishedGroupId = 'com.pavan.utils' // your module package name
     libraryName = 'MyUtility'
